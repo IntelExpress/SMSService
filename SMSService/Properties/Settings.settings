@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SMSService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Host" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://81.95.160.47/mt/sendsms?username=intelex&amp;password=int123&amp;client_id=381&amp;service_id=</Value>
+    </Setting>
+    <Setting Name="Logpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\Logs</Value>
+    </Setting>
+    <Setting Name="db" Type="System.String" Scope="User">
+      <Value Profile="(Default)">data source=192.168.1.1\MTBase; initial catalog=MyBase; user id=Zurabgz; password=zebo; Pooling = true; Connect Timeout=1; Max Pool Size=1000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
