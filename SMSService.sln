@@ -1,11 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSService", "SMSService\SMSService.csproj", "{76F5199B-265D-4E92-99EC-6066207DC515}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS_Class", "..\SMS_Class\SMS_Class\SMS_Class.csproj", "{8469E727-3D61-4D82-97D1-5F9FB2CBAAC1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsTestWin", "SmsTestWin\SmsTestWin.csproj", "{AE7834D4-708C-45B3-9C6D-E4881E4533A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XorHexStringLib", "..\..\Cards\XorHexStringLib\XorHexStringLib.csproj", "{6F356393-344E-40F2-8227-E8DDD151B52C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +35,26 @@ Global
 		{8469E727-3D61-4D82-97D1-5F9FB2CBAAC1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8469E727-3D61-4D82-97D1-5F9FB2CBAAC1}.Release|x86.ActiveCfg = Release|x86
 		{8469E727-3D61-4D82-97D1-5F9FB2CBAAC1}.Release|x86.Build.0 = Release|x86
-		{AE7834D4-708C-45B3-9C6D-E4881E4533A3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{AE7834D4-708C-45B3-9C6D-E4881E4533A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7834D4-708C-45B3-9C6D-E4881E4533A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE7834D4-708C-45B3-9C6D-E4881E4533A3}.Debug|x86.ActiveCfg = Debug|x86
 		{AE7834D4-708C-45B3-9C6D-E4881E4533A3}.Debug|x86.Build.0 = Debug|x86
 		{AE7834D4-708C-45B3-9C6D-E4881E4533A3}.Release|Any CPU.ActiveCfg = Release|x86
 		{AE7834D4-708C-45B3-9C6D-E4881E4533A3}.Release|x86.ActiveCfg = Debug|x86
 		{AE7834D4-708C-45B3-9C6D-E4881E4533A3}.Release|x86.Build.0 = Debug|x86
+		{6F356393-344E-40F2-8227-E8DDD151B52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F356393-344E-40F2-8227-E8DDD151B52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F356393-344E-40F2-8227-E8DDD151B52C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6F356393-344E-40F2-8227-E8DDD151B52C}.Debug|x86.Build.0 = Debug|Any CPU
+		{6F356393-344E-40F2-8227-E8DDD151B52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F356393-344E-40F2-8227-E8DDD151B52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F356393-344E-40F2-8227-E8DDD151B52C}.Release|x86.ActiveCfg = Release|Any CPU
+		{6F356393-344E-40F2-8227-E8DDD151B52C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D9F666C-6372-4780-96B1-AB6984B20278}
 	EndGlobalSection
 EndGlobal
